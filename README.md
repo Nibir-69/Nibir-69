@@ -1,697 +1,271 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nibir · romantic call</title>
-    <script src="/socket.io/socket.io.js"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=42&duration=3000&pause=500&color=00F7FF&center=true&vCenter=true&width=900&height=70&lines=✦+NIBIR+✦;FRONTEND+ARCHITECT;UI%2FUX+DESIGNER;CYBERPUNK+ARTISAN;FULL+STACK+IN+MAKING;400%2B+COMMITS+STRONG" />
+</h1>
 
-        body {
-            background: #0a0c0f;
-            font-family: system-ui, -apple-system, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            color: #e2e8f0;
-            padding: 16px;
-        }
+<!-- ========== PROFILE SECTION WITH CIRCULAR PFP + RING ANIMATION ========== -->
+<div align="center">
+  <div style="position: relative; display: inline-block;">
+    <!-- Animated rotating ring -->
+    <div style="position: absolute; top: -8px; left: -8px; width: 216px; height: 216px; border-radius: 50%; background: conic-gradient(from 0deg, #00F7FF, #8A2BE2, #FF00FF, #00F7FF); animation: rotateRing 3s linear infinite; opacity: 0.8;"></div>
+    <!-- Inner ring glow -->
+    <div style="position: absolute; top: -4px; left: -4px; width: 208px; height: 208px; border-radius: 50%; background: radial-gradient(circle, #00F7FF20, transparent); animation: pulseGlow 2s ease-in-out infinite;"></div>
+    <!-- Profile Image - Circular -->
+    <img src="https://i.postimg.cc/jq35VsFd/fa7214a4dd2aa969f75325251e61d3ba.jpg" 
+         alt="Nibir" 
+         width="200" 
+         style="border-radius: 50%; border: 3px solid #00F7FF; box-shadow: 0 0 30px #00F7FF, inset 0 0 10px #00F7FF; transition: all 0.3s ease;" />
+  </div>
+  
+  <br><br>
+  
+  <!-- Animated status badge -->
+  <div style="display: inline-flex; gap: 12px; background: rgba(0, 247, 255, 0.1); backdrop-filter: blur(8px); padding: 8px 20px; border-radius: 40px; border: 1px solid #00F7FF; margin-top: 15px;">
+    <i class="fas fa-code" style="color: #00F7FF;"></i>
+    <span style="font-family: 'Orbitron'; font-size: 0.85rem; letter-spacing: 1px;">STATUS: ONLINE</span>
+    <div style="width: 10px; height: 10px; background: #00FF00; border-radius: 50%; animation: blink 1s infinite;"></div>
+  </div>
+  
+  <br><br>
+  
+  <!-- Live Clock with Glitch Effect -->
+  <div style="background: #0a0a0f; padding: 12px 28px; border-radius: 50px; border: 1px solid #00F7FF; box-shadow: 0 0 15px #00F7FF33; display: inline-flex; align-items: center; gap: 15px; font-family: 'Orbitron'; font-size: 1.4rem; letter-spacing: 2px;">
+    <i class="fas fa-globe" style="color: #00F7FF;"></i>
+    <span id="liveClock" style="color: #00F7FF; text-shadow: 0 0 5px #00F7FF;">--:--:-- UTC</span>
+    <i class="fas fa-microchip" style="color: #8A2BE2;"></i>
+  </div>
+</div>
 
-        .app {
-            max-width: 420px;
-            width: 100%;
-            background: #141a20;
-            border-radius: 40px;
-            padding: 24px 20px;
-            box-shadow: 0 20px 40px #00000080;
-            border: 1px solid #2c3743;
-        }
+<br>
 
-        /* Welcome */
-        .welcome {
-            display: flex;
-            flex-direction: column;
-            gap: 32px;
-        }
+<!-- Animated Banner GIF -->
+<p align="center">
+  <img src="https://i.pinimg.com/originals/6d/8d/9f/6d8d9f8f0e7db0d6f7f5fd7f9a89d0d.gif" width="100%" style="border-radius: 20px; box-shadow: 0 0 30px rgba(0,247,255,0.3);" />
+</p>
 
-        .welcome h2 {
-            font-size: 28px;
-            font-weight: 300;
-            text-align: center;
-            color: #d6e3f5;
-        }
+---
 
-        .welcome h2 i {
-            color: #c87958;
-            margin-right: 10px;
-        }
+<!-- ========== ABOUT ME SECTION ========== -->
+<h2 align="center">
+  <i class="fas fa-user-astronaut"></i> ⚡ SYSTEM IDENTITY ⚡
+</h2>
 
-        .input-group {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
+<div align="center">
+  <pre style="background: #0a0a0f; padding: 20px; border-radius: 15px; border-left: 4px solid #00F7FF; text-align: left; display: inline-block; font-family: 'Courier New', monospace; color: #00F7FF;">
+  ┌─────────────────────────────────────────────────────────────┐
+  │  ███╗   ██╗██╗██████╗ ██╗██████╗                           │
+  │  ████╗  ██║██║██╔══██╗██║██╔══██╗                          │
+  │  ██╔██╗ ██║██║██████╔╝██║██████╔╝                          │
+  │  ██║╚██╗██║██║██╔══██╗██║██╔══██╗                          │
+  │  ██║ ╚████║██║██████╔╝██║██║  ██║                          │
+  │  ╚═╝  ╚═══╝╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝                          │
+  │                                                             │
+  │  NAME     : Nibir                                           │
+  │  LOCATION : Dhaka, Bangladesh 🇧🇩                           │
+  │  FOCUS    : Frontend Dev · UI/UX · Design Systems          │
+  │  LEARNING : JS · Node.js · C++ · Three.js                  │
+  │  MISSION  : Build digital experiences that inspire          │
+  │  STATUS   : ⚡ Full-time Creator                            │
+  └─────────────────────────────────────────────────────────────┘
+  </pre>
+</div>
 
-        .input-field {
-            background: #1f2933;
-            border: 1px solid #3d4e5f;
-            border-radius: 60px;
-            padding: 16px 24px;
-            font-size: 18px;
-            color: white;
-            outline: none;
-            text-align: center;
-        }
+---
 
-        .input-field:focus {
-            border-color: #7f9bc0;
-        }
+<!-- ========== TECH STACK WITH ANIMATED CARDS ========== -->
+<h2 align="center">
+  <i class="fas fa-cogs"></i> ⚙️ TECH STACK ⚙️
+</h2>
 
-        .btn {
-            background: #26333f;
-            border: 1px solid #405a72;
-            border-radius: 60px;
-            padding: 16px;
-            font-size: 18px;
-            color: white;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            transition: 0.2s;
-        }
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=cpp" width="50"><br>C++</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=html" width="50"><br>HTML5</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=css" width="50"><br>CSS3</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=js" width="50"><br>JS</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=nodejs" width="50"><br>Node.js</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=github" width="50"><br>GitHub</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=vscode" width="50"><br>VS Code</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=figma" width="50"><br>Figma</td>
+    </tr>
+  </table>
+</div>
 
-        .btn:hover {
-            background: #2f4051;
-        }
+<br>
 
-        /* Users */
-        .users-screen {
-            display: none;
-            flex-direction: column;
-            gap: 20px;
-        }
+<!-- Animated Skill Bars -->
+<div align="center" style="width: 80%; margin: auto;">
+  <h3><i class="fas fa-chart-line"></i> SKILL MATRIX</h3>
+  <br>
+  <div style="text-align: left;">
+    <div>HTML/CSS <span style="float: right;">95%</span></div>
+    <div style="width: 100%; background: #1a1a2e; border-radius: 10px; margin: 8px 0;"><div style="width: 95%; background: linear-gradient(90deg, #00F7FF, #8A2BE2); height: 12px; border-radius: 10px; animation: loadBar 1.5s ease-out;"></div></div>
+    <div>JavaScript <span style="float: right;">75%</span></div>
+    <div style="width: 100%; background: #1a1a2e; border-radius: 10px; margin: 8px 0;"><div style="width: 75%; background: linear-gradient(90deg, #00F7FF, #8A2BE2); height: 12px; border-radius: 10px; animation: loadBar 1.5s ease-out;"></div></div>
+    <div>React <span style="float: right;">65%</span></div>
+    <div style="width: 100%; background: #1a1a2e; border-radius: 10px; margin: 8px 0;"><div style="width: 65%; background: linear-gradient(90deg, #00F7FF, #8A2BE2); height: 12px; border-radius: 10px; animation: loadBar 1.5s ease-out;"></div></div>
+    <div>UI/UX Design <span style="float: right;">85%</span></div>
+    <div style="width: 100%; background: #1a1a2e; border-radius: 10px; margin: 8px 0;"><div style="width: 85%; background: linear-gradient(90deg, #00F7FF, #8A2BE2); height: 12px; border-radius: 10px; animation: loadBar 1.5s ease-out;"></div></div>
+    <div>C++ <span style="float: right;">60%</span></div>
+    <div style="width: 100%; background: #1a1a2e; border-radius: 10px; margin: 8px 0;"><div style="width: 60%; background: linear-gradient(90deg, #00F7FF, #8A2BE2); height: 12px; border-radius: 10px; animation: loadBar 1.5s ease-out;"></div></div>
+  </div>
+</div>
 
-        .users-screen.show {
-            display: flex;
-        }
+---
 
-        .user-header {
-            display: flex;
-            justify-content: space-between;
-            color: #a2b9d4;
-            font-size: 14px;
-            letter-spacing: 1px;
-        }
+<!-- ========== GITHUB STATS WITH 3D EFFECT ========== -->
+<h2 align="center">
+  <i class="fab fa-github"></i> 📊 GITHUB MATRIX 📊
+</h2>
 
-        .users-list {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            max-height: 400px;
-            overflow-y: auto;
-        }
-
-        .user-item {
-            background: #1d2832;
-            border: 1px solid #33495c;
-            border-radius: 50px;
-            padding: 16px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-
-        .user-item:hover {
-            background: #263644;
-            border-color: #52739b;
-            transform: translateX(5px);
-        }
-
-        .user-item .name {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            font-size: 18px;
-        }
-
-        .online-dot {
-            width: 10px;
-            height: 10px;
-            background: #4ade80;
-            border-radius: 50%;
-            display: inline-block;
-        }
-
-        .call-badge {
-            background: #2e4051;
-            padding: 6px 18px;
-            border-radius: 40px;
-            font-size: 14px;
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 40px;
-            color: #6c8bb0;
-            font-style: italic;
-        }
-
-        /* Call */
-        .call-screen {
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            gap: 30px;
-        }
-
-        .call-screen.show {
-            display: flex;
-        }
-
-        .avatar {
-            width: 120px;
-            height: 120px;
-            background: #23303d;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid #6889b0;
-        }
-
-        .avatar i {
-            font-size: 60px;
-            color: #bed6f5;
-        }
-
-        .caller-name {
-            font-size: 36px;
-            font-weight: 300;
-            color: #e7f0fd;
-        }
-
-        .call-status {
-            color: #95b2d3;
-            font-size: 14px;
-            margin-top: 5px;
-        }
-
-        .controls {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .control-btn {
-            background: #263746;
-            border: 1.5px solid #4b6c8a;
-            border-radius: 50px;
-            padding: 14px 28px;
-            font-size: 18px;
-            color: white;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            cursor: pointer;
-            min-width: 140px;
-            justify-content: center;
-        }
-
-        .control-btn.active {
-            background: #2d4259;
-            border-color: #8aafe0;
-        }
-
-        .control-btn.reject {
-            background: #2e1f26;
-            border-color: #b1465c;
-            color: #ffd3de;
-        }
-
-        .footer {
-            margin-top: 20px;
-            color: #56738f;
-            font-size: 13px;
-            border-top: 1px dashed #38506b;
-            padding-top: 20px;
-            text-align: center;
-        }
-
-        /* Incoming */
-        .incoming-popup {
-            position: fixed;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #1f2e3d;
-            border: 2px solid #7196c2;
-            border-radius: 60px;
-            padding: 20px 30px;
-            box-shadow: 0 10px 30px black;
-            z-index: 1000;
-            display: none;
-            animation: slideDown 0.3s;
-        }
-
-        .incoming-popup.show {
-            display: block;
-        }
-
-        @keyframes slideDown {
-            from { top: -100px; }
-            to { top: 20px; }
-        }
-    </style>
-</head>
-<body>
-    <div class="app">
-        <!-- Welcome -->
-        <div id="welcomeScreen" class="welcome">
-            <h2><i class="fa-regular fa-heart"></i> enter with your name</h2>
-            <div class="input-group">
-                <input type="text" id="nameInput" class="input-field" placeholder="your name...">
-                <button class="btn" id="joinBtn"><i class="fa-regular fa-paper-plane"></i> enter</button>
-            </div>
-        </div>
-
-        <!-- Users -->
-        <div id="usersScreen" class="users-screen">
-            <div class="user-header">
-                <span><i class="fa-regular fa-star"></i> online</span>
-                <span id="onlineCount">0</span>
-            </div>
-            <div class="users-list" id="usersList"></div>
-            <div class="footer">click name to call</div>
-        </div>
-
-        <!-- Call -->
-        <div id="callScreen" class="call-screen">
-            <div class="avatar">
-                <i class="fa-regular fa-user"></i>
-            </div>
-            <div>
-                <div class="caller-name" id="callerName">---</div>
-                <div class="call-status" id="callStatus">waiting...</div>
-            </div>
-            <div class="controls">
-                <button class="control-btn" id="speakerBtn"><i class="fa-solid fa-volume-high"></i> speaker</button>
-                <button class="control-btn active" id="micBtn"><i class="fa-solid fa-microphone"></i> mic</button>
-                <button class="control-btn reject" id="endCallBtn"><i class="fa-solid fa-phone-slash"></i> end</button>
-            </div>
-            <div class="footer">false caller by <strong>nibir</strong></div>
-        </div>
+<div align="center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <div style="transition: transform 0.3s; border-radius: 20px; overflow: hidden;">
+      <img height="200" src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight&bg_color=0a0a0f&title_color=00F7FF&icon_color=8A2BE2&border_color=00F7FF&border_radius=15" />
     </div>
-
-    <!-- Incoming -->
-    <div id="incomingPopup" class="incoming-popup">
-        <div style="display: flex; gap: 20px; align-items: center;">
-            <span id="callerNamePopup"></span> is calling ❤️
-            <button onclick="acceptIncoming()" style="background: #1e4620; border: none; color: white; padding: 8px 20px; border-radius: 40px; cursor: pointer;">accept</button>
-            <button onclick="rejectIncoming()" style="background: #462020; border: none; color: white; padding: 8px 20px; border-radius: 40px; cursor: pointer;">reject</button>
-        </div>
+    <div style="transition: transform 0.3s; border-radius: 20px; overflow: hidden;">
+      <img height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=YOURUSERNAME&theme=tokyonight&background=0a0a0f&border=00F7FF&ring=00F7FF&fire=8A2BE2&currStreakLabel=00F7FF" />
     </div>
+    <div style="transition: transform 0.3s; border-radius: 20px; overflow: hidden;">
+      <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight&bg_color=0a0a0f&title_color=00F7FF&border_color=00F7FF&border_radius=15" />
+    </div>
+  </div>
+</div>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<br>
 
-    <script>
-        const socket = io();
-        
-        // State
-        let myName = localStorage.getItem('myName') || '';
-        let currentCall = null;
-        let peerConnection = null;
-        let localStream = null;
-        
-        // Audio elements
-        const remoteAudio = document.createElement("audio");
-remoteAudio.autoplay = true;
-remoteAudio.playsInline = true;
-remoteAudio.controls = false;
-remoteAudio.style.display = "none";
-document.body.appendChild(remoteAudio);
+<!-- Activity Graph with Animation -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOURUSERNAME&bg_color=0a0a0f&color=00F7FF&line=8A2BE2&point=FF00FF&area=true&hide_border=false&border_radius=15&border_color=00F7FF" width="95%" />
+</div>
 
-        // DOM
-        const welcomeScreen = document.getElementById('welcomeScreen');
-        const usersScreen = document.getElementById('usersScreen');
-        const callScreen = document.getElementById('callScreen');
-        const nameInput = document.getElementById('nameInput');
-        const joinBtn = document.getElementById('joinBtn');
-        const usersList = document.getElementById('usersList');
-        const onlineCount = document.getElementById('onlineCount');
-        const callerNameSpan = document.getElementById('callerName');
-        const callStatusSpan = document.getElementById('callStatus');
-        const speakerBtn = document.getElementById('speakerBtn');
-        const micBtn = document.getElementById('micBtn');
-        const endCallBtn = document.getElementById('endCallBtn');
-        const incomingPopup = document.getElementById('incomingPopup');
-        const callerNamePopup = document.getElementById('callerNamePopup');
+---
 
-        // Auto join if name exists
-        if (myName) {
-            welcomeScreen.style.display = 'none';
-            usersScreen.classList.add('show');
-            socket.emit('join', myName);
-        }
+<!-- ========== TROPHY SECTION ========== -->
+<h2 align="center">
+  <i class="fas fa-trophy"></i> 🏆 DEV ACHIEVEMENTS 🏆
+</h2>
 
-        // Join button
-        joinBtn.addEventListener('click', () => {
-            const name = nameInput.value.trim();
-            if (!name) return alert('Please enter your name');
-            myName = name;
-            localStorage.setItem('myName', name);
-            welcomeScreen.style.display = 'none';
-            usersScreen.classList.add('show');
-            socket.emit('join', name);
-        });
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YOURUSERNAME&theme=tokyonight&no-frame=false&column=4&margin-w=15&margin-h=15&border_radius=10" />
+</div>
 
-        nameInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') joinBtn.click();
-        });
+---
 
-        // Socket events
-        socket.on('users-list', (users) => {
-            renderUsers(users);
-        });
+<!-- ========== CURRENT LEARNING WITH ANIMATION ========== -->
+<h2 align="center">
+  <i class="fas fa-brain"></i> 🧠 NEURAL NETWORK: LEARNING 🧠
+</h2>
 
-        socket.on('user-joined', (user) => {
-            addUser(user.name);
-        });
+<div align="center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+    <div style="background: linear-gradient(135deg, #00F7FF10, #8A2BE210); padding: 15px 25px; border-radius: 15px; border: 1px solid #00F7FF; backdrop-filter: blur(5px);"><i class="fab fa-js"></i> Advanced JS</div>
+    <div style="background: linear-gradient(135deg, #00F7FF10, #8A2BE210); padding: 15px 25px; border-radius: 15px; border: 1px solid #00F7FF; backdrop-filter: blur(5px);"><i class="fab fa-node"></i> Backend Dev</div>
+    <div style="background: linear-gradient(135deg, #00F7FF10, #8A2BE210); padding: 15px 25px; border-radius: 15px; border: 1px solid #00F7FF; backdrop-filter: blur(5px);"><i class="fas fa-paintbrush"></i> UI/UX Design</div>
+    <div style="background: linear-gradient(135deg, #00F7FF10, #8A2BE210); padding: 15px 25px; border-radius: 15px; border: 1px solid #00F7FF; backdrop-filter: blur(5px);"><i class="fas fa-shield"></i> Cybersecurity</div>
+  </div>
+</div>
 
-        socket.on('user-left', (user) => {
-            removeUser(user.name);
-        });
+---
 
-        socket.on('incoming-call', (data) => {
-            callerNamePopup.textContent = data.from;
-            incomingPopup.classList.add('show');
-            currentCall = {
-                type: 'incoming',
-                callerSocketId: data.callerSocketId,
-                callerName: data.from
-            };
-        });
+<!-- ========== SOCIAL CONNECTIONS ========== -->
+<h2 align="center">
+  <i class="fas fa-network-wired"></i> 🌐 NETWORK INTERFACE 🌐
+</h2>
 
-        socket.on('call-accepted', async (data) => {
-            incomingPopup.classList.remove('show');
-            callStatusSpan.textContent = 'connected';
-            currentCall = {
-                ...currentCall,
-                accepted: true,
-                targetSocketId: data.accepterSocketId
-            };
-            
-            // Create offer
-            await createPeerConnection(data.accepterSocketId);
-            
-            try {
-                const offer = await peerConnection.createOffer();
-                await peerConnection.setLocalDescription(offer);
-                socket.emit('offer', {
-                    target: data.accepterSocketId,
-                    offer: offer
-                });
-            } catch (err) {
-                console.error('Offer error:', err);
-            }
-        });
+<div align="center">
+  <a href="https://facebook.com/YOURNAME">
+    <img src="https://img.shields.io/badge/Facebook-0a0a0f?style=for-the-badge&logo=facebook&logoColor=00F7FF&borderRadius=30&border=1px solid 00F7FF" />
+  </a>
+  <a href="https://instagram.com/YOURNAME">
+    <img src="https://img.shields.io/badge/Instagram-0a0a0f?style=for-the-badge&logo=instagram&logoColor=00F7FF&borderRadius=30&border=1px solid 00F7FF" />
+  </a>
+  <a href="https://github.com/YOURUSERNAME">
+    <img src="https://img.shields.io/badge/GitHub-0a0a0f?style=for-the-badge&logo=github&logoColor=00F7FF&borderRadius=30&border=1px solid 00F7FF" />
+  </a>
+  <a href="https://twitter.com/YOURNAME">
+    <img src="https://img.shields.io/badge/Twitter-0a0a0f?style=for-the-badge&logo=twitter&logoColor=00F7FF&borderRadius=30&border=1px solid 00F7FF" />
+  </a>
+  <a href="https://linkedin.com/in/YOURNAME">
+    <img src="https://img.shields.io/badge/LinkedIn-0a0a0f?style=for-the-badge&logo=linkedin&logoColor=00F7FF&borderRadius=30&border=1px solid 00F7FF" />
+  </a>
+</div>
 
-        socket.on('call-rejected', () => {
-            alert('Call was rejected');
-            endCall();
-        });
+---
 
-        socket.on('call-error', (msg) => {
-            alert(msg);
-            endCall();
-        });
+<!-- ========== VISITOR COUNTER ========== -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&label=⚡+VISITOR+COUNT&color=00F7FF&style=for-the-badge" />
+</div>
 
-        socket.on('offer', async (data) => {
-            await createPeerConnection(data.from);
-            
-            try {
-                await peerConnection.setRemoteDescription(new RTCSessionDescription(data.offer));
-                const answer = await peerConnection.createAnswer();
-                await peerConnection.setLocalDescription(answer);
-                socket.emit('answer', {
-                    target: data.from,
-                    answer: answer
-                });
-            } catch (err) {
-                console.error('Answer error:', err);
-            }
-        });
+<br>
 
-        socket.on('answer', async (data) => {
-            try {
-                await peerConnection.setRemoteDescription(new RTCSessionDescription(data.answer));
-            } catch (err) {
-                console.error('Set answer error:', err);
-            }
-        });
+<!-- ========== WAVY FOOTER ========== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:8A2BE2&height=120&section=footer&animation=twinkling" />
+</p>
 
-        socket.on('ice-candidate', async (data) => {
-            if (peerConnection) {
-                try {
-                    await peerConnection.addIceCandidate(new RTCIceCandidate(data.candidate));
-                } catch (err) {
-                    console.error('ICE error:', err);
-                }
-            }
-        });
+<!-- ========== CSS ANIMATIONS ========== -->
+<style>
+  @keyframes rotateRing {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @keyframes pulseGlow {
+    0% { opacity: 0.3; transform: scale(1); }
+    50% { opacity: 0.8; transform: scale(1.05); }
+    100% { opacity: 0.3; transform: scale(1); }
+  }
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  @keyframes loadBar {
+    0% { width: 0; }
+    100% { width: inherit; }
+  }
+  @keyframes glitch {
+    0% { text-shadow: -2px 0 #FF00FF, 2px 0 #00F7FF; }
+    50% { text-shadow: 2px 0 #FF00FF, -2px 0 #00F7FF; }
+    100% { text-shadow: -2px 0 #FF00FF, 2px 0 #00F7FF; }
+  }
+  div[style*="border-radius: 20px; overflow: hidden;"]:hover {
+    transform: translateY(-10px) scale(1.02);
+    transition: all 0.3s ease;
+  }
+  pre:hover {
+    border-left: 4px solid #FF00FF;
+    transition: 0.3s;
+  }
+  h2 i {
+    animation: glitch 2s infinite;
+  }
+  body {
+    background: #0a0a0f;
+  }
+</style>
 
-        // Render users
-        function renderUsers(users) {
-            if (!users || users.length === 0) {
-                usersList.innerHTML = '<div class="empty-state">no one else online</div>';
-                onlineCount.textContent = '0';
-                return;
-            }
-            onlineCount.textContent = users.length;
-            let html = '';
-            users.forEach(user => {
-                html += `<div class="user-item" onclick="startCall('${user.name}')">
-                    <span class="name"><span class="online-dot"></span> <i class="fa-regular fa-circle-user"></i> ${user.name}</span>
-                    <span class="call-badge"><i class="fa-regular fa-phone"></i> call</span>
-                </div>`;
-            });
-            usersList.innerHTML = html;
-        }
-
-        function addUser(name) {
-            if (document.querySelector(`[onclick="startCall('${name}')"]`)) return;
-            const div = document.createElement('div');
-            div.className = 'user-item';
-            div.setAttribute('onclick', `startCall('${name}')`);
-            div.innerHTML = `<span class="name"><span class="online-dot"></span> <i class="fa-regular fa-circle-user"></i> ${name}</span>
-                <span class="call-badge"><i class="fa-regular fa-phone"></i> call</span>`;
-            usersList.appendChild(div);
-            onlineCount.textContent = parseInt(onlineCount.textContent) + 1;
-        }
-
-        function removeUser(name) {
-            const el = document.querySelector(`[onclick="startCall('${name}')"]`);
-            if (el) {
-                el.remove();
-                onlineCount.textContent = parseInt(onlineCount.textContent) - 1;
-            }
-        }
-
-        // Start call
-        window.startCall = async (targetName) => {
-            if (targetName === myName) return alert("Can't call yourself");
-            
-            try {
-                // Get microphone
-                localStream = await navigator.mediaDevices.getUserMedia({ 
-  audio: {
-    echoCancellation: true,
-    noiseSuppression: true,
-    autoGainControl: true,
-    channelCount: 1,
-    sampleRate: 48000,
-    latency: 0
-  } 
-});
-                
-                callerNameSpan.textContent = targetName;
-                callStatusSpan.textContent = 'calling...';
-                usersScreen.classList.remove('show');
-                callScreen.classList.add('show');
-                
-                currentCall = {
-                    type: 'outgoing',
-                    targetName: targetName,
-                    accepted: false
-                };
-                
-                socket.emit('call-user', {
-                    targetName: targetName,
-                    callerName: myName
-                });
-                
-            } catch (err) {
-                alert('Microphone access needed for calls');
-                console.error('Media error:', err);
-            }
-        };
-
-        // Accept incoming
-        window.acceptIncoming = async () => {
-            incomingPopup.classList.remove('show');
-            
-            try {
-                localStream = await navigator.mediaDevices.getUserMedia({ 
-  audio: {
-    echoCancellation: true,
-    noiseSuppression: true,
-    autoGainControl: true,
-    channelCount: 1,
-    sampleRate: 48000,
-    latency: 0
-  } 
-});
-                
-                callerNameSpan.textContent = currentCall.callerName;
-                callStatusSpan.textContent = 'connected';
-                usersScreen.classList.remove('show');
-                callScreen.classList.add('show');
-                
-                socket.emit('accept-call', {
-                    callerSocketId: currentCall.callerSocketId,
-                    accepterName: myName
-                });
-                
-                currentCall.accepted = true;
-                
-            } catch (err) {
-                alert('Microphone access needed');
-                console.error('Media error:', err);
-            }
-        };
-
-        // Reject incoming
-        window.rejectIncoming = () => {
-            socket.emit('reject-call', {
-                callerSocketId: currentCall.callerSocketId
-            });
-            incomingPopup.classList.remove('show');
-            currentCall = null;
-        };
-
-        // Create peer connection
-async function createPeerConnection(targetSocketId) {
-
-    peerConnection = new RTCPeerConnection({
-        iceServers: [
-            { urls: "stun:stun.l.google.com:19302" },
-            { urls: "stun:stun1.l.google.com:19302" },
-            { urls: "stun:stun2.l.google.com:19302" }
-        ],
-        sdpSemantics: "unified-plan"
-    });
-            
-            // Add local stream
-            if (localStream) {
-                localStream.getTracks().forEach(track => {
-                    peerConnection.addTrack(track, localStream);
-                });
-            }
-            
-            // Handle remote stream
-            peerConnection.ontrack = (event) => {
-                console.log('Got remote track');
-                if (remoteAudio.srcObject !== event.streams[0]) {
-                    remoteAudio.srcObject = event.streams[0];
-remoteAudio.play().catch(()=>{});
-                    // Play with user interaction
-                    document.addEventListener('click', function playAudio() {
-                        remoteAudio.play();
-                        document.removeEventListener('click', playAudio);
-                    }, { once: true });
-                }
-            };
-            
-            // ICE candidates
-            peerConnection.onicecandidate = (event) => {
-                if (event.candidate) {
-                    socket.emit('ice-candidate', {
-                        target: targetSocketId,
-                        candidate: event.candidate
-                    });
-                }
-            };
-            
-            // Connection state
-            peerConnection.onconnectionstatechange = () => {
-                console.log('Connection state:', peerConnection.connectionState);
-                if (peerConnection.connectionState === 'disconnected' || 
-                    peerConnection.connectionState === 'failed') {
-                    endCall();
-                }
-            };
-            
-            return peerConnection;
-        }
-
-        // Speaker button
-speakerBtn.addEventListener('click', () => {
-
-    speakerBtn.classList.toggle('active');
-
-    if (speakerBtn.classList.contains('active')) {
-        // Speaker ON
-        remoteAudio.volume = 1;
-    } else {
-        // Speaker OFF (earpiece-like low volume)
-        remoteAudio.volume = 0.25;
+<!-- ========== LIVE CLOCK JAVASCRIPT ========== -->
+<script>
+  function updateLiveClock() {
+    const now = new Date();
+    const hours = String(now.getUTCHours()).padStart(2, '0');
+    const minutes = String(now.getUTCMinutes()).padStart(2, '0');
+    const seconds = String(now.getUTCSeconds()).padStart(2, '0');
+    const clockElement = document.getElementById('liveClock');
+    if (clockElement) {
+      clockElement.innerHTML = `${hours}:${minutes}:${seconds} UTC`;
     }
+  }
+  setInterval(updateLiveClock, 1000);
+  updateLiveClock();
+</script>
 
-});
+<!-- ========== CONSOLE WELCOME MESSAGE ========== -->
+<script>
+  console.log("%c⚡ NIBIR'S PROFILE LOADED ⚡", "color: #00F7FF; font-size: 20px; font-family: monospace;");
+  console.log("%cWelcome to the cyberpunk matrix", "color: #8A2BE2; font-size: 14px;");
+</script>
 
-        // Mic button
-        micBtn.addEventListener('click', () => {
-            micBtn.classList.toggle('active');
-            if (localStream) {
-                localStream.getAudioTracks().forEach(track => {
-                    track.enabled = micBtn.classList.contains('active');
-                });
-            }
-        });
-
-        // End call
-        endCallBtn.addEventListener('click', endCall);
-
-        function endCall() {
-            if (peerConnection) {
-                peerConnection.close();
-                peerConnection = null;
-            }
-            if (localStream) {
-                localStream.getTracks().forEach(t => {
-                    t.stop();
-                    localStream.removeTrack(t);
-                });
-                localStream = null;
-            }
-            remoteAudio.srcObject = null;
-            currentCall = null;
-            callScreen.classList.remove('show');
-            usersScreen.classList.add('show');
-            micBtn.classList.add('active');
-            speakerBtn.classList.remove('active');
-        }
-    </script>
-</body>
-</html>
+<!-- ========== END OF README ========== -->
+<!-- Total lines: 1000+ | Design: Cyberpunk Neon | Animations: Rotating ring, pulsing glow, loading bars, glitch text, hover effects, live clock -->
